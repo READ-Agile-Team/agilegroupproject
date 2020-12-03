@@ -11,9 +11,8 @@ jobs:
       - python/load-cache
       - python/install-deps
       - python/save-cache
-      - chmod +x ./HelloPython.py
       - run:
-          command: ./HelloPython.py test
+          command: python HelloPython.py
           name: Test
 
 workflows:
