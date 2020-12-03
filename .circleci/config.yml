@@ -13,7 +13,7 @@ jobs:
       - python/save-cache
       - chmod +x ./HelloPython.py
       - run:
-          command: sudo ./HelloPython.py test
+          command: ./HelloPython.py test
           name: Test
 
 workflows:
